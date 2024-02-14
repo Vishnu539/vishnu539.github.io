@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+  padding: 25px;
+  background-color: #131314;
+  font-family: 'Poppins',Sans-Serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigatoin Bar section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  color: #222222;
+}
+
+#logo {
+    text-decoration: none;
+    color: #3347ab;
+    font-size: 2rem;
+}
+
+#logo:hover {
+    color: #fff;
+    transition: .8s;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+  transition: .5s;
+}
+
+.pages{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  height: 1rem;
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+.pages a:hover {
+    color: #3347ab;
+    transition: 0.8s;
+}
+
+/* Main page section */
+.hero {
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hero-text h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* Lookbook section */
+.lookbook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 80px;
+  border: 2px solid #222222;
+  padding-bottom: 10px;
+  position: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+#viewMore{ 
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #fff;
+    /* opacity: 0.7; */
+}
+
+#viewMore:hover {
+    opacity: 1;
+    color: #3347ab;
+    transition: .8s;
+    
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.box img{
+    width: 33%;
+}
+
+/* Shop now section */
+.shopNow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 300px;
+  font-size: 20px;
+  color: #eee;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #222222;
+}
+
+.shopNow p {
+  font-size: 1.4rem;  
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.shopNow a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.shopNow a:hover {
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: .4s;
+}
+
+/* Image section */
+.image {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.image img {
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Email section */
+.email {
+  height: 100px;
+  font-size: 50px;
+  color: #eee;
+  justify-content: center;
+  text-align: center;
+}
+
+.email-section {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background-image: url(https://images.unsplash.com/photo-1544441893-675973e31985?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVucyUyMGZhc2hpb258ZW58MHwwfDB8fHww);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.email-section p{
+    color: #fff;
+    font-size: 2.3rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 5px;
+    width: 460px;
+    height: 50px;
+    padding: 0 16px;
+    background-color: white;
+}
+
+button {
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3347ab;
+    color: white;
+    padding: 0 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+}
+
+button:hover {
+    transition: .6s;
+    background-color: #131314;
+    border: 3px solid #222222;
+}
+
+/* Back to top section */
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.top a {
+    text-decoration: none;
+}
+
+.top a:hover {
+    text-decoration: none;
+    color: #3347ab;
+    transition: .6s;
+}
+
+/* Footer Section */
+footer {
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 40px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.socialIcons a:hover {
+    opacity: 1;
+    color: #3347ab;
+    /* font-size: 1.6rem; */
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: #fff;
+    /* margin: 20px; */
+    text-decoration: none;
+    font-size: 1.4rem;
+    opacity: 0.7;
+    transition: .5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+    /* font-size: 1.45rem; */
+    color: #3347ab;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer-bottom a {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    opacity: 1;
+    color: #3347ab;
+}
