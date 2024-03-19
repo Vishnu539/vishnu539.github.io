@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Patrick+Hand&family=Patrick+Hand+SC&display=swap');
+
+* {
+    padding: 1.5vw;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand SC';
+}
+
+body{
+    background-color: crimson;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhcnQlMjBwbmd8ZW58MHx8MHx8fDI%3D);
+    background-size: cover;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: none;
+    border-radius: 8px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border: 2px solid lavender;
+}
+
+p{
+    font-size: 1.4vw;
+    font-weight: 550;
+    line-height: 2.5vw;
+    color: black;
+}
+
+@media (max-width: 900px){
+    p{
+        font-size: 3vw;
+        font-weight: 500;
+        line-height: 4vw;
+        color: black;
+        /* background-color: lavender; */
+    }
+
+    body {
+        background-image: url(https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhcnQlMjBwbmd8ZW58MHx8MHx8fDI%3D);
+        background-size: cover; 
+    }
+
+    main {
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+        border: 2px solid lavender;
+    }
+}
+
+@media (max-width: 780px) {
+    p{
+        font-size: 3vw;
+        font-weight: 500;
+        line-height: 4vw;
+        color: black;
+        /* background-color: lavender; */
+    }
+    
+    body {
+        background-image: url(https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhcnQlMjBwbmd8ZW58MHx8MHx8fDI%3D);
+        background-size: cover; 
+    }
+
+    main {
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+        border: 2px solid lavender;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lavender;
+    border-radius: 10px;
+}
