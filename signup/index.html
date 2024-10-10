@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main font-['Poppins'] flex items-center justify-center">
+        <div class="container bg-[#ebf4f5] w-[70%] flex items-center justify-center mx-auto rounded-lg md:px-4 md:w-[60%] md:h-[80%] lg:px-0">
+            <div class="hidden lg:flex lg:h-[100%] lg:w-[45%]">
+                <img src="https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJsdWUlMjBiYWNrZ3JvdW5kfGVufDB8MXwwfHx8Mg%3D%3D" class="lg:rounded-s-lg lg:object-cover lg:object-center  lg:w-full">
+            </div>
+
+            <div class="right px-6 py-8 flex flex-col items-start lg:w-[55%]">
+                <div class="top"> 
+                    <h1 class="font-bold text-xl mb-2 md:text-2xl">Login</h1>
+                    <p class="font-base opacity-70flex mb-4 text-base md:text-lg">Welcome back! Please login to your account.</p>
+                </div>
+
+                <div class="hero w-[100%]">
+                    <section id="username" class="w-[100%]">
+                        <h5 class="font-medium opacity-60 text-md">Username</h5>
+                        <input type="text" placeholder="Enter username." class="border-2 border-slate-300 px-2 py-2 rounded-md text-md w-full mb-4 drop-shadow">
+                    </section>
+
+                    <section id="password">
+                        <h5 class="font-medium opacity-60 text-md">Password</h5>
+                        <input type="password" placeholder="Enter password" class="border-2 border-slate-300 px-2 py-2 rounded-md text-md w-full mb-4 drop-shadow">
+                    </section>
+
+                    <div class="bottom w-full flex justify-between mb-4">
+                        <div class="remember">
+                            <input type="checkbox" id="text" class="cursor-pointer drop-shadow">
+                            <label for="text" class="lg:text-sm">Remember Me</label>
+                        </div>
+
+                        <div class="forgot">
+                            <a href="#" class="no-underline lg:text-sm">Forget password?</a>
+                        </div>
+                    </div>
+
+                    <div class="login w-full">
+                        <a href="#"><button class="bg-[#2F91D2] w-full rounded-md py-2 text-white opacity-75 hover:opacity-100 mb-4 md:text-lg lg:text-base">Login</button></a>
+                    </div>
+
+                    <div class="signup flex gap-1 lg:text-base">
+                        <p>New User?</p>
+                        <a href="#"><button class="text-[#2F91D2] hover:curson-pointer hover:opacity-100 decoration-0 opacity-80 lg:text-sm">Signup</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
