@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'New Amsterdam';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0B192C;
+    border-radius: 6px;
+}
+
+.main{
+    height: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    position: relative;
+}
+
+.error{
+    width: 100vw;
+    height: 100vh;
+    background-color: #c3cfe2;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error p{
+    font-size: 4vw;
+    line-height: 4vw;
+}
+
+.error h2{
+    font-size: 6vw;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+}
+
+#second-page{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.rectangle{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 400px;
+    /* background-color: red; */
+    background: linear-gradient(220.55deg, #A531DC 0%, #4300B1 100%);
+    border-radius: 10px;
+}
+
+.container{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    width: 100%;
+    font-size: 10vw;
+    line-height: 10vw;
+    font-weight: 100;
+}
+
+.imagediv{
+    position: absolute;
+    height: 250px;
+    width: 180px;
+    overflow: hidden;
+}
+
+.imagediv img{
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 900px){
+    .error{
+        display: flex;
+    }
+
+    .main{
+        display: none;
+    }
+}
