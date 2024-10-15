@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+}
+
+body{
+    padding: 10px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.navbar{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav2{
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.hero{
+    width: 70%;
+    line-height: 90px;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1{
+    font-weight: 200;
+    font-size: 7vw;
+    position: relative;
+    z-index: 9;
+}
+
+.hero h1:nth-child(2){
+    text-align: center;
+}
+
+.hero h1:nth-child(3){
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    position: absolute;
+    object-position: center;
+    top: 23%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 15deg;
+}
+
+#img2{
+    rotate: 10deg;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+@media (max-width: 700px) {
+    .hero h1{
+        font-size: 8vw;
+        line-height: 9vw;
+    }
+}
