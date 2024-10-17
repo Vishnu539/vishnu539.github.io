@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <!-- REMIX ICON CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- LOCOMOTIVE CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    
+    <!-- FONTSHARE LINK -->
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap" rel="stylesheet">
+    <title>Cynthia Ugwu ○ Product Designer</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">Cynthia Ugwu</a>
+        <h2 id="link">menu+ <div class="line" id="menu-line"></div></h2>
+    </div>
+
+    <div class="full-nav">
+        <div class="nav-top">
+            <a href="#">Cynthia Ugwu</a>
+            <button id="close">close</button>
+        </div>
+
+        <div class="nav-main">
+            <a href="#">home</a>
+            <a href="#">the plug</a>
+            <a href="#">ixperience</a>
+            <a href="#">hudu</a>
+            <a href="#">playground</a>
+        </div>
+    </div>
+
+    <div id="mini-circle"></div>
+    
+    <div class="main">
+        <div id="page1">
+            <div class="heading">
+                <h1 id="first-heading">product</h1>
+                <h1 id="second-heading">designer</h1>
+                <h5 id="third-heading">based in toronto</h5>
+            </div>
+
+            <div class="bottom">
+                <div class="bottom-one">
+                    <h5>available for freelance</h5>
+                    <h5>work from may 23'</h5>
+                </div>
+
+                <div class="bottom-two">
+                    <a href="#" id="btm-link1">currently working at yml<div class="line" id="bottom-line1"></div></a>
+                    <a href="#" id="btm-link2">prototype ambassador<div class="line" id="bottom-line2"></div></a>
+                    <div class="arrows">
+                        <div class="arrow1" id="arrow-container">
+                            <i class="ri-arrow-down-line" id="arrow-icon"></i>
+                            <i class="ri-arrow-down-line" id="arrow-icon"></i>
+                        </div>
+
+                        <div class="arrow2" id="arrow-container">
+                            <i class="ri-arrow-down-line" id="arrow-icon"></i>
+                            <i class="ri-arrow-down-line" id="arrow-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div class="content">
+                <img src="plug.png" id="content-img">
+                <h1>The Plug</h1>
+                <h5>2022</h5>
+            </div>
+
+            <div class="content">
+                <img src="ixperience.png" id="content-img">
+                <h1>ixperience</h1>
+                <h5>2022</h5>
+            </div>
+
+            <div class="content last">
+                <img src="hudu.png" id="content-img">
+                <h1>hudu</h1>
+                <h5>2021</h5>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="page3-content">
+                <div class="about-container">
+                    <div class="page3-image">
+                        <img src="https://cynthiaugwu.com/images/cynthia.png">
+                    </div>
+                    <div class="about">
+                        <h5>(about me)</h5>
+                        <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.
+                        </p>
+                        <a href="#" id="talk-btn">Lets's talk</a>
+                    </div>
+                </div>
+    
+                <div class="mention">
+                    <h5>(forgot to mention)</h5>
+                    <a href="#" id="sub-link">subscribe to my youtube channel<div class="line" id="sub-line"></div></a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-left">
+                <h4>2024</h4>
+                <h4 id="current-time">time</h4>
+            </div>
+            <div class="footer-right">
+                <a href="#" id="dribble-link">dribble<div class="line" id="dribble-line"></div></a>
+                <a href="#" id="insta-link">instagram<div class="line" id="insta-line"></div></a>
+                <a href="#" id="linkedin-link">linkedin<div class="line" id="linkedin-line"></div></a>
+                <a href="#" id="twitter-link">twitter<div class="line" id="twitter-line"></div></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- LOCOMOTIVE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- GSAP SCROLLTRIGGER CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
