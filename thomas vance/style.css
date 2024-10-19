@@ -1,0 +1,33 @@
+*{
+    font-family: 'Satoshi', sans-serif;
+}
+
+::selection{
+    background-color: #18181B;
+    color: #fff;
+}
+
+.grid div{
+    grid-row: var(--r);
+    grid-column: var(--c);
+}
+
+img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #18181B;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d1d1d1;
+    border: 1px solid #181818;
+    border-radius: 10px;
+}
